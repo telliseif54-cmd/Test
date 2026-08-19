@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neon Dodge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="game-wrap">
+    <section class="hud">
+      <div><span>Score</span><strong id="score">0</strong></div>
+      <div><span>Vies</span><strong id="lives">3</strong></div>
+      <button id="startBtn">Jouer</button>
+    </section>
+    <canvas id="game" width="800" height="500" aria-label="Jeu Neon Dodge"></canvas>
+    <p class="help">Déplace-toi avec <kbd>←</kbd> <kbd>→</kbd> ou <kbd>A</kbd> <kbd>D</kbd>. Évite les blocs rouges.</p>
+    <div id="message" class="message">Clique sur « Jouer » pour commencer.</div>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
